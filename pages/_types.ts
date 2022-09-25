@@ -25,6 +25,7 @@ export interface Skills {
     programmingLanguages: IndividualSkill[];
     frameworks: IndividualSkill[];
     databases: IndividualSkill[];
+    languages: IndividualSkill[];
 }
 
 export interface Certification {
