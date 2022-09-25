@@ -9,6 +9,9 @@ env:
   AWS_REGION: us-east-2
   CV_API_URL: ${{ secrets.DEVELOP_CV_API_URL }}
 
+permissions:
+  id-token: write
+
 jobs:
   deploy:
     name: Deploy develop
