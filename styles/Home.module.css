@@ -31,3 +31,13 @@
     display: block;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .topContainer {
+    border-bottom-color: #58a6ff;
+  }
+
+  .topContainer h1 {
+    color: #58a6ff;
+  }
+}

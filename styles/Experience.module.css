@@ -22,3 +22,9 @@
 .experienceContainer {
     padding: 0.5rem 0;
 }
+
+@media (prefers-color-scheme: dark) {
+    .experience h2, .experience h3 {
+        color: #58a6ff;
+    }
+}

@@ -5,3 +5,9 @@
 .contactInfo a {
     color: darkblue;
 }
+
+@media (prefers-color-scheme: dark) {
+    .contactInfo a{
+        color: #58a6ff;
+    }
+}
