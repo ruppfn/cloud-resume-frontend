@@ -1,0 +1,17 @@
+.skillsContainer {
+    margin: 1rem;
+}
+
+.skillsContainer h2 {
+    color: #3f77b7;
+    margin-bottom: 0;
+}
+
+.skill h3 {
+    display: inline;
+    color: #3f77b7;
+}
+
+.skillLevel {
+    text-decoration: underline;
+}

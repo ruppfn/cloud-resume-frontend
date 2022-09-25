@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import {CvData} from "./_types";
 import ContactInfoComponent from "./_contactInfo";
 import ExperienceComponent from "./_experience";
+import SkillsComponent from "./_skills";
 
 interface Props {
     cvData: CvData
@@ -24,6 +25,7 @@ const Home: NextPage<Props> = ({cvData}) => {
                 {cvData.aboutMe}
             </div>
             <ExperienceComponent experience={cvData.experience}/>
+            <SkillsComponent skills={cvData.skills}/>
         </div>
     )
 }
