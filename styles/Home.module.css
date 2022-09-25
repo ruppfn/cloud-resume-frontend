@@ -1,0 +1,43 @@
+.container {
+  padding: 0 2rem;
+  margin: 1rem;
+}
+
+.topContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin: 1rem;
+  border-bottom: 0.2rem solid darkblue;
+}
+
+.leftContainer {
+  grid-column-start: 1;
+}
+
+.rightContainer {
+  grid-column-start: -1;
+}
+
+.aboutMe {
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .topContainer {
+    display: block;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+  .code {
+    background: #111;
+  }
+  .logo img {
+    filter: invert(1);
+  }
+}
