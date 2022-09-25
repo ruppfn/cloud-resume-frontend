@@ -23,9 +23,7 @@ const Home: NextPage<Props> = ({cvData}) => {
             <div className={styles.aboutMe}>
                 {cvData.aboutMe}
             </div>
-            <div>
-                <ExperienceComponent experience={cvData.experience}/>
-            </div>
+            <ExperienceComponent experience={cvData.experience}/>
         </div>
     )
 }
