@@ -11,6 +11,10 @@
   border-bottom: 0.2rem solid darkblue;
 }
 
+.topContainer h1 {
+  color: darkblue;
+}
+
 .leftContainer {
   grid-column-start: 1;
 }
