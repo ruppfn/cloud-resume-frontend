@@ -1,9 +1,9 @@
 import type {NextPage} from 'next'
 import styles from '../styles/Home.module.css'
 import {CvData} from "../types/cvData";
-import ContactInfoComponent from "../components/_contactInfo";
-import ExperienceComponent from "../components/_experience";
-import SkillsComponent from "../components/_skills";
+import ContactInfoComponent from "../components/contactInfo";
+import ExperienceComponent from "../components/experience";
+import SkillsComponent from "../components/skills";
 
 interface Props {
     cvData: CvData
