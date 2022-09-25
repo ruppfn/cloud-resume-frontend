@@ -1,5 +1,5 @@
 import styles from "../styles/ContactInfo.module.css";
-import {ContactInfo} from "./_types";
+import {ContactInfo} from "../types/_types";
 import {FunctionComponent} from "react";
 
 interface Props {

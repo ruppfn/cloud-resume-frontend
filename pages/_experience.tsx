@@ -1,5 +1,5 @@
 import styles from "../styles/Experience.module.css";
-import {Experience} from "./_types";
+import {Experience} from "../types/_types";
 import {FunctionComponent} from "react";
 
 interface Props {

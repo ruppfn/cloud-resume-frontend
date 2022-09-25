@@ -1,5 +1,5 @@
 import styles from "../styles/Skills.module.css";
-import {IndividualSkill, Skills} from "./_types";
+import {IndividualSkill, Skills} from "../types/_types";
 import {FunctionComponent} from "react";
 
 interface Props {

@@ -1,6 +1,6 @@
 import type {NextPage} from 'next'
 import styles from '../styles/Home.module.css'
-import {CvData} from "./_types";
+import {CvData} from "../types/_types";
 import ContactInfoComponent from "./_contactInfo";
 import ExperienceComponent from "./_experience";
 import SkillsComponent from "./_skills";
