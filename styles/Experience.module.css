@@ -1,0 +1,24 @@
+.experience {
+    margin: 1rem;
+}
+
+.experience h2, .experience h3 {
+    color: darkblue;
+}
+
+.experience h2 {
+    margin-bottom: 0;
+}
+
+.companyName h3 {
+    display: inline;
+}
+
+.companyName span {
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.experienceContainer {
+    padding: 0.5rem 0;
+}

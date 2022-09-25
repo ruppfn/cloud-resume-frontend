@@ -2,6 +2,7 @@ import type {NextPage} from 'next'
 import styles from '../styles/Home.module.css'
 import {CvData} from "./_types";
 import ContactInfoComponent from "./_contactInfo";
+import ExperienceComponent from "./_experience";
 
 interface Props {
     cvData: CvData
@@ -21,6 +22,9 @@ const Home: NextPage<Props> = ({cvData}) => {
             </div>
             <div className={styles.aboutMe}>
                 {cvData.aboutMe}
+            </div>
+            <div>
+                <ExperienceComponent experience={cvData.experience}/>
             </div>
         </div>
     )
