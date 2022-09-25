@@ -52,3 +52,6 @@ jobs:
 
       - name: Build the page
         run: npm run build
+
+      - name: Upload the page to S3
+        run: aws s3 sync ./out s3://${{ secrets.DEVELOP_BUCKET_NAME }}
