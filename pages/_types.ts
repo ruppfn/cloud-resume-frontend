@@ -7,6 +7,8 @@ export interface ContactInfo {
 }
 
 export interface Experience {
+    id: number;
+    role: string;
     companyName: string;
     fromDate: string;
     toDate: string;
