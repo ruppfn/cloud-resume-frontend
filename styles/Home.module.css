@@ -6,12 +6,12 @@
   grid-template-columns: 1fr 1fr;
 
   margin: 1rem;
-  border-bottom: 0.2rem solid darkblue;
+  border-bottom: 0.2rem solid #d8d8d8;
   padding-bottom: 0.3rem;
 }
 
 .topContainer h1 {
-  color: darkblue;
+  color: #3f77b7;
 }
 
 .leftContainer {
@@ -34,10 +34,6 @@
 
 @media (prefers-color-scheme: dark) {
   .topContainer {
-    border-bottom-color: #58a6ff;
-  }
-
-  .topContainer h1 {
-    color: #58a6ff;
+    border-bottom-color: #191919;
   }
 }
