@@ -4,6 +4,7 @@ import {CvData} from "../types/cvData";
 import ContactInfoComponent from "../components/contactInfo";
 import ExperienceComponent from "../components/experience";
 import SkillsComponent from "../components/skills";
+import CertificationsComponent from "../components/certifications";
 
 interface Props {
     cvData: CvData
@@ -26,6 +27,7 @@ const Home: NextPage<Props> = ({cvData}) => {
             </div>
             <ExperienceComponent experience={cvData.experience}/>
             <SkillsComponent skills={cvData.skills}/>
+            <CertificationsComponent certifications={cvData.certifications}/>
         </div>
     )
 }
