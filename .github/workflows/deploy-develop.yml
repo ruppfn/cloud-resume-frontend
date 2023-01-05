@@ -1,6 +1,7 @@
 name: Deploy develop
 
 on:
+  repository_dispatch:
   push:
     branches:
       - develop
