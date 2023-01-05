@@ -1,0 +1,14 @@
+.certificationContainer {
+    margin: 1rem;
+}
+
+.certificationContainer h2 {
+    color: #3f77b7;
+    margin-bottom: 0;
+}
+
+.certification h3 {
+    display: inline;
+    color: #3f77b7;
+    text-decoration: underline;
+}
